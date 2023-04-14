@@ -129,10 +129,10 @@
   dependencies:
     xss "^1.0.8"
 
-"@cerc-io/cache@^0.2.37":
-  version "0.2.37"
-  resolved "http://gitea.local:3000/api/packages/nabarun/npm/%40cerc-io%2Fcache/-/0.2.37/cache-0.2.37.tgz#9d876c70a694c18657023daf96f45cee4a58f097"
-  integrity sha512-24Mqeelt8+HvF0CNXTahp0ch3QQorrYftie5AfHg+XCKRRGTrZiTDUHVOZYZqmvPp/Lr9jvVcFJc9hGBOAGwSg==
+"@cerc-io/cache@^0.2.38":
+  version "0.2.38"
+  resolved "https://git.vdb.to/api/packages/cerc-io/npm/%40cerc-io%2Fcache/-/0.2.38/cache-0.2.38.tgz#3379a9759e4fc68097b6d24ac8aded8b8a96925f"
+  integrity sha512-ouSUHr5bZNTxMQfVhH3nt0JTpcQxl02fdpqVJ8CiuOqJ8qRxRvS2egcrnutNbk4viAQey+YXe4GIN7vgVkXZug==
   dependencies:
     canonical-json "^0.0.4"
     debug "^4.3.1"
@@ -140,13 +140,13 @@
     fs-extra "^10.0.0"
     level "^7.0.0"
 
-"@cerc-io/ipld-eth-client@^0.2.37":
-  version "0.2.37"
-  resolved "http://gitea.local:3000/api/packages/nabarun/npm/%40cerc-io%2Fipld-eth-client/-/0.2.37/ipld-eth-client-0.2.37.tgz#982f0bd132d484d2904ad092f1597a2562f33b3d"
-  integrity sha512-/oZfZH7vvipZDF8B+liUqaWUuL9JEoz5gTm0o46d2bWpXWyriyYJ7jBj17PHaru0jWVthSPVsKbTrI3p/1AB9A==
+"@cerc-io/ipld-eth-client@^0.2.38":
+  version "0.2.38"
+  resolved "https://git.vdb.to/api/packages/cerc-io/npm/%40cerc-io%2Fipld-eth-client/-/0.2.38/ipld-eth-client-0.2.38.tgz#0b28f0cc2b840d01e0b8bb0c5b8f2aded8a1b509"
+  integrity sha512-hellpHsTJCNN0y/hxK9PnFKlfwjJLbNVEnGFEF+km75QLeh6HqzL5w491xW6T/XwCgUKaMEnFNbREjPelWU0Cg==
   dependencies:
     "@apollo/client" "^3.7.1"
-    "@cerc-io/cache" "^0.2.37"
+    "@cerc-io/cache" "^0.2.38"
     cross-fetch "^3.1.4"
     debug "^4.3.1"
     ethers "^5.4.4"
@@ -156,28 +156,28 @@
     ws "^8.11.0"
     zen-observable-ts "^1.1.0"
 
-"@cerc-io/solidity-mapper@^0.2.37":
-  version "0.2.37"
-  resolved "http://gitea.local:3000/api/packages/nabarun/npm/%40cerc-io%2Fsolidity-mapper/-/0.2.37/solidity-mapper-0.2.37.tgz#7e6b784663b4e1b68f89bf00a593d88c018679e1"
-  integrity sha512-kb2M8GGkrTLWy9eBe4n7fdZd8YYk53ba3yyFcfaM/8bvS9FbNMUyxTb7gjzgXSjS8zIt3jC13ltmw6MjiuLZCw==
+"@cerc-io/solidity-mapper@^0.2.38":
+  version "0.2.38"
+  resolved "https://git.vdb.to/api/packages/cerc-io/npm/%40cerc-io%2Fsolidity-mapper/-/0.2.38/solidity-mapper-0.2.38.tgz#c315075a15fdeaf9b3518c2a9416844dd53cd06f"
+  integrity sha512-2Xzd1lD/j9Mf2oLkre9IhbgRKvWKfc8qwa6goBpws26ScAjyHbnzVKq39wTBh1rMPxDaJakEBTHvtkc0kFgvaQ==
   dependencies:
     dotenv "^10.0.0"
 
-"@cerc-io/tracing-client@^0.2.37":
-  version "0.2.37"
-  resolved "http://gitea.local:3000/api/packages/nabarun/npm/%40cerc-io%2Ftracing-client/-/0.2.37/tracing-client-0.2.37.tgz#fe6ffd398301905a467c7cd8386e4fc652bd7b0c"
-  integrity sha512-GFzGZ1dcfihWftblGU9IBX0X45WKh2FnyZIFsNJhslOkpKItuV6NV8RFVhX93DrH+IYPr21SxA9rc3OiIs20GQ==
+"@cerc-io/tracing-client@^0.2.38":
+  version "0.2.38"
+  resolved "https://git.vdb.to/api/packages/cerc-io/npm/%40cerc-io%2Ftracing-client/-/0.2.38/tracing-client-0.2.38.tgz#89497803be2e764d59400a33cbe41d1af5023e2d"
+  integrity sha512-qyRDUNzOMXQwRMizHHWyAWx9b6ixLRSxk7nbAYTQjdDy0VzpP/oNu/o5qVmCq3aMo7lIja00UuWog61MWdvy9w==
   dependencies:
     ethers "^5.4.4"
     yargs "^17.0.1"
 
-"@cerc-io/util@^0.2.37":
-  version "0.2.37"
-  resolved "http://gitea.local:3000/api/packages/nabarun/npm/%40cerc-io%2Futil/-/0.2.37/util-0.2.37.tgz#55813b3ab80321d90f5063a78a42b9b7018c21ac"
-  integrity sha512-27vdbm5vdhIA/IaI+K+9oBQmE95FsAIUEJlk+gANL0PHAIQfqgX5JP/X9NNgryXsl1c4B5R1y4oRevduACBtbQ==
+"@cerc-io/util@^0.2.38":
+  version "0.2.38"
+  resolved "https://git.vdb.to/api/packages/cerc-io/npm/%40cerc-io%2Futil/-/0.2.38/util-0.2.38.tgz#e92b8272daea49450e94d2171c2cacd4b66fc6ae"
+  integrity sha512-W324Z/0AEGyMmr20KYpoNwbC/6RrSBmgFi2Q833ea3VJAs4IYgyZnjF+G5VTWR77D7962ll7vLHIAW47R4tK7Q==
   dependencies:
     "@apollo/utils.keyvaluecache" "^1.0.1"
-    "@cerc-io/solidity-mapper" "^0.2.37"
+    "@cerc-io/solidity-mapper" "^0.2.38"
     "@ethersproject/providers" "^5.4.4"
     "@graphql-tools/schema" "^9.0.10"
     "@graphql-tools/utils" "^9.1.1"
