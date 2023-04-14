@@ -1,12 +1,13 @@
 {
-  "name": "@cerc-io/address-watcher",
+  "name": "@cerc-io/address-watcher-ts",
   "version": "0.2.37",
   "description": "Address Watcher",
   "private": true,
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint --max-warnings=0 .",
     "test": "mocha -r ts-node/register src/**/*.test.ts",
     "build": "tsc",
+    "prepare": "husky install",
     "server": "DEBUG=vulcanize:* node --enable-source-maps dist/server.js",
     "server:dev": "DEBUG=vulcanize:* nodemon --watch src src/server.ts",
     "job-runner": "DEBUG=vulcanize:* node --enable-source-maps dist/job-runner.js",
@@ -16,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cerc-io/watcher-ts.git"
+    "url": "git+https://github.com/cerc-io/address-watcher-ts.git"
   },
   "author": "",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/cerc-io/watcher-ts/issues"
+    "url": "https://github.com/cerc-io/address-watcher-ts/issues"
   },
-  "homepage": "https://github.com/cerc-io/watcher-ts#readme",
+  "homepage": "https://github.com/cerc-io/address-watcher-ts#readme",
   "dependencies": {
     "@apollo/client": "^3.3.19",
     "@cerc-io/cache": "^0.2.37",
@@ -59,6 +60,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^5.0.0",
+    "husky": "^7.0.2",
     "mocha": "^8.4.0",
     "nodemon": "^2.0.7",
     "typescript": "^5.0.2"
